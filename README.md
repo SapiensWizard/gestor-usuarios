@@ -26,7 +26,7 @@ Sistema Web para gestão de usuários desenvolvido em **PHP**, utilizando **Prog
 - CSS3
 - Bootstrap 5
 - Bootstrap Icons
-- JavaScript
+- JavaScript (JS)
 - jQuery
 
 ## Autor
