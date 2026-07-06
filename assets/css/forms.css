@@ -1,0 +1,27 @@
+.form-label[data-required="true"]::after {
+  content: " *";
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.form-label:not([data-required])::after {
+  content: " (Opcional";
+  color: #6c757d;
+  font-size: 0.85em;
+  margin-left: 4px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s 0.3s ease;
+}
+
+[placeholder]:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s 0.3s ease;
+}
+
+[placeholder]:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s 0.3s ease;
+}

@@ -1,0 +1,67 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"); */
+@import url("forms.css");
+@import url("users.css");
+
+/* Variáveis CSS */
+:root {
+  /* Semantic Colors (Bootstrap) */
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-primary: #0d6efd;
+  --bs-danger: #dc3545;
+  --bs-warning: #ffc107;
+
+  /* Neutrals */
+  --color-body-bg: #ffffff;
+  --color-body-text: #212529;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Poppins", sans-serif;
+  background-color: var(--color-body-bg);
+  color: var(--color-body-text);
+  overflow-x: hidden;
+  padding-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* SOBRESCREVER CLASSES DO BOOTSTRAP */
+
+/* Containers */
+.container,
+.container-fluid {
+  max-width: 1200px !important;
+}
+
+/* Backgrounds */
+.bg-danger {
+  background-color: var(--bs-danger) !important;
+}
+
+/* Textos */
+.text-danger {
+  color: var(--bs-danger) !important;
+}
+
+/*** DESENVOLVIDO POR: ONÉSIMO SUPE ***/

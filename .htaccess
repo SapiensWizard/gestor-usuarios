@@ -1,0 +1,9 @@
+# Redirecionar a raiz para templates/users/index.php
+# DirectoryIndex templates/users/index.php
+
+# Ou usando RewriteRule
+# RewriteEngine On
+# RewriteRule ^$ templates/users/index.php [L]
+
+# Prevenir listagem de diretórios
+# Options -Indexes

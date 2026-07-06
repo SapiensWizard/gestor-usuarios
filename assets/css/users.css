@@ -1,0 +1,27 @@
+/**
+* User styles - Gestor de Usuários
+*
+* Users - Estilos gerais
+*/
+
+/* --- ESTILOS GLOBAIS DO MÓDULO --- */
+
+.table-responsive {
+  border-radius: calc(6 / 16 * 1rem); /* 6px = 0.375rem */
+}
+
+/* --- LISTAGEM (index.php) --- */
+/* .user-section .table tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.05) !important;
+  cursor: default !important;
+} */
+
+/* --- CADASTRO (create.php) --- */
+
+/* --- VISUALIZAÇÃO (view.php) --- */
+
+/* --- EDIÇÃO (edit.php) --- */
+
+/* --- EXCLUSÃO (delete.php) --- */
+
+/* --- BOTÕES DE AÇÃO --- */
