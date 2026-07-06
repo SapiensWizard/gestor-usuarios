@@ -18,7 +18,7 @@ Sistema Web para gestão de usuários desenvolvido em **PHP**, utilizando **Prog
 - PHP 8+
 - Programação Orientada a Objetos (POO)
 - MySQL
-- MySQLi
+- MySQLi(MySQL Improved)
 
 ### Front-end
 
